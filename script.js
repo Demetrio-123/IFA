@@ -256,20 +256,20 @@ function trocarImagem(escolha) {
     switch(escolha){
         case "1":
           urlNova = 'café.png';
-          textoprincipal.innerText="Pisces?";
-          texto.innerText="Peixes (Pisces) é uma das 12 constelações do zodíaco. Ela representa dois peixes ligados por uma corda, segundo a mitologia grega.";
+          textoprincipal.innerText="Como explicar o Sol?";
+          texto.innerText="O Sol é uma estrela gigante feita de gás quente que fica no centro do nosso Sistema Solar, a 150 milhões de quilômetros da Terra. Ele dá luz e calor ao nosso planeta, controla a gravidade que segura os planetas ao seu redor e é essencial para a existência de toda a vida.";
           descrevefigura.innerText="Imagem do Sol na cor amarela ";
           break;
         case "2":
           urlNova = 'cordosol.jfif';
-          textoprincipal.innerText="Sagittarius";
-          texto.innerText="Sagitário (Sagittarius) é uma das 12 constelações do zodíaco e é representada pela figura de um arqueiro, geralmente associado a um centauro.";
+          textoprincipal.innerText="A verdadeira cor do SOL ";
+          texto.innerText="O Sol visto a olho nu no espaço é na verdade branco. A coloração amarela que vemos aqui na superfície da Terra é por causa da atmosfera da Terra.";
           descrevefigura.innerText="Imagem do Sol na cor branca ";
           break;
         default:
           urlNova = 'acessibilidade.png';
-          textoprincipal.innerText"Capricornus";
-          texto.innerText="Capricórnio (Capricornus) é uma das 12 constelações do zodíaco. Ela é representada tradicionalmente por uma criatura com corpo de cabra e cauda de peixe.";
+          textoprincipal.innerText="O que é Acessibilidade?";
+          texto.innerText="        A acessibilidade digital permite que qualquer        pessoa utilize sistemas computacionais        independentemente de suas limitações.";
           descrevefigura.innerText="Figura 1 - Pessoa utilizando computador com tecnologia assistiva. ";
           break;
         }
